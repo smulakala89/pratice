@@ -8,6 +8,8 @@
   public void setZeroes(int[][] matrix) {
     boolean firstRow = false, firstCol = false;
 
+
+    
     // Set markers in first row and first column
     for (int i = 0; i < matrix.length; i++)
       for (int j = 0; j < matrix[0].length; j++)
